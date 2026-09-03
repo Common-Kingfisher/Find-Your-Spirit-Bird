@@ -1,0 +1,39 @@
+# Local development dependencies and builds
+**/node_modules/
+site/.next/
+site/.vinext/
+site/dist/
+site/out/
+site/work/
+site/.wrangler/
+site/coverage/
+
+# Local environment and credentials
+**/.env*
+**/*.pem
+
+# Codex working files and generated review artifacts
+/.codex-sheet/
+/.local-backups/
+/outputs/
+/assets/
+/scripts/
+/.codex-*
+/codex-*
+/inspect_provider_mismatch.py
+/repair_codex_history_after_exit.py
+/run_codex_history_repair_after_exit.ps1
+
+# Superseded root-level workbooks (the maintained workbook is under docs/)
+/*.xlsx
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Package-manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
